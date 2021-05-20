@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AC539AD8-0299-4F6B-B9ED-BDF68CA73FC3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Simple.Framework</RootNamespace>
+    <AssemblyName>Simple.Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <ApplicationIcon>earth.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConvertDate.cs" />
+    <Compile Include="Simple.Framework.Gui\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simple.Framework.Gui\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simple.Framework.Gui\ChildFormChecker.cs" />
+    <Compile Include="Simple.Framework.Gui\GenericNormalCollectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simple.Framework.Gui\GenericNormalCollectionForm.Designer.cs">
+      <DependentUpon>GenericNormalCollectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simple.Framework.Gui\GenericSimpleCollectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simple.Framework.Gui\GenericSimpleCollectionForm.Designer.cs">
+      <DependentUpon>GenericSimpleCollectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simple.Framework.Orm\AssemblyValidator.cs" />
+    <Compile Include="Simple.Framework.Orm\DataAccess.cs" />
+    <Compile Include="Simple.Framework.Orm\DataReaderMapper.cs" />
+    <Compile Include="ErrorMessage.cs" />
+    <Compile Include="Simple.Framework\SqlInfoEnumerator.cs" />
+    <Compile Include="Simple.Framework\Interfaces\BusinessLogicLayer\IBusinessLogic.cs" />
+    <Compile Include="Simple.Framework\Interfaces\DataAccessLayer\IDataAccess.cs" />
+    <Compile Include="Simple.Framework.Orm\Mapping.cs" />
+    <Compile Include="Simple.Framework.Orm\MappingDataExtractor.cs" />
+    <Compile Include="Simple.Framework.Orm\MappingValidator.cs" />
+    <Compile Include="Simple.Framework.Orm\PropertyValidator.cs" />
+    <Compile Include="Simple.Framework.Orm\KeyMaker.cs" />
+    <Compile Include="Simple.Framework.Orm\QueryNames.cs" />
+    <Compile Include="Simple.Framework.Orm\ConfigSection\AssembliesConfigurationSection.cs" />
+    <Compile Include="Simple.Framework.Orm\ConfigSection\AssemblyTypeConfigurationElement.cs" />
+    <Compile Include="Simple.Framework.Orm\MappingContainer.cs" />
+    <Compile Include="Simple.Framework.Orm\OrmEngine.cs" />
+    <Compile Include="Simple.Framework.Orm\SqlGenerator.cs" />
+    <Compile Include="Simple.Framework\Interfaces\Poco\ITypePoco.cs" />
+    <Compile Include="Simple.Framework\Utils\ConfigurationSettingsContainer.cs" />
+    <Compile Include="Simple.Framework\Utils\DBNullValue.cs" />
+    <Compile Include="Simple.Framework\Interfaces\ISafeDataReader.cs" />
+    <Compile Include="Simple.Framework\Interfaces\IQueryExecutor.cs" />
+    <Compile Include="Simple.Framework\Interfaces\ITransactionManager.cs" />
+    <Compile Include="Simple.Framework\ParameterAttacher.cs" />
+    <Compile Include="Simple.Framework\SafeDataReader.cs" />
+    <Compile Include="Simple.Framework\QueryExecutor.cs" />
+    <Compile Include="Simple.Framework\TransactionManager.cs" />
+    <Compile Include="Simple.Framework\Utils\ApplicationContext.cs" />
+    <Compile Include="Simple.Framework\BaseClasses\BaseClass.cs" />
+    <Compile Include="Simple.Framework\Utils\ConvertImage.cs" />
+    <Compile Include="Simple.Framework\Utils\CustomErrorMessages.cs" />
+    <Compile Include="Simple.Framework\Utils\DbObjectInstantiator.cs" />
+    <Compile Include="Simple.Framework\BaseClasses\IBaseClassInterface.cs" />
+    <Compile Include="Simple.Framework\Utils\NullableType.cs" />
+    <Compile Include="Simple.Framework\Utils\ParameterParser.cs" />
+    <Compile Include="Simple.Framework\PivotTable\PivotTable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Simple.Framework\AbstractClasses\AQueryExecutor.cs" />
+    <Compile Include="Simple.Framework\AbstractClasses\ASafeDataReader.cs" />
+    <Compile Include="Simple.Framework\AbstractClasses\ATransactionManager.cs" />
+    <Compile Include="Simple.Framework.Orm\PrimitiveTypeChecker.cs" />
+    <Compile Include="Simple.Framework\Utils\VarDecToVarName.cs" />
+    <Compile Include="Simple.Framework.Orm\SQLContainer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonBlack.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonHighLight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonNormal.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Simple.Framework.Gui\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simple.Framework.Gui\GenericNormalCollectionForm.resx">
+      <DependentUpon>GenericNormalCollectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simple.Framework.Gui\GenericSimpleCollectionForm.resx">
+      <DependentUpon>GenericSimpleCollectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="earth.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
