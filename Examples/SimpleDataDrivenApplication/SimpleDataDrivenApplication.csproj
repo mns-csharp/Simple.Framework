@@ -48,10 +48,6 @@
       <Project>{ac539ad8-0299-4f6b-b9ed-bdf68ca73fc3}</Project>
       <Name>Simple.Framework</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Simple.Framework\Simple.Framework.csproj">
-      <Project>{ac539ad8-0299-4f6b-b9ed-bdf68ca73fc3}</Project>
-      <Name>Simple.Framework</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="MyPicture.png">
