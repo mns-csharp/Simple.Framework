@@ -1,0 +1,14 @@
+Default Value কেন প্রয়োজন?
+===========================================
+কোন database-field কে NULL করলে আমরা
+class-property কে nullable করি এবং
+xml এ nullable='true' রাখি।
+
+এরপর, property তে কোনো মান না দিলে field-এ
+স্বয়ংক্রিয়ভাবে NULL-value বসে যায়।
+-------------------------------------------
+এখন আমরা,
+	(১) database-field কে NOT-NULL করব
+    (২) property কে nullable করব
+    (৩) property কে কোনো মান দিবনা
+ফলে, field-এ NULL না বসে default মান বসবে।
