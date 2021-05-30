@@ -129,6 +129,7 @@
     <Compile Include="Simple.Framework\Utils\DbObjectInstantiator.cs" />
     <Compile Include="Simple.Framework\BaseClasses\IBaseClassInterface.cs" />
     <Compile Include="Simple.Framework\Utils\EnumConverter.cs" />
+    <Compile Include="Simple.Framework\Utils\FilePathVerifier.cs" />
     <Compile Include="Simple.Framework\Utils\NullableType.cs" />
     <Compile Include="Simple.Framework\Utils\ParameterParser.cs" />
     <Compile Include="Simple.Framework\PivotTable\PivotTable.cs" />

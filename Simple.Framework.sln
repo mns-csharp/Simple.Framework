@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDataDrivenApplication
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimitiveLayeredDataDrivenApplication", "Examples\PrimitiveLayeredDataDrivenApplication\PrimitiveLayeredDataDrivenApplication.csproj", "{925DB4C6-5708-4895-993C-0090343F185F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumConverter__TestProject", "Examples\EnumConverter__TestProject\EnumConverter__TestProject.csproj", "{5ECE028E-ADDE-4219-A633-86D12B33669C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{925DB4C6-5708-4895-993C-0090343F185F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{925DB4C6-5708-4895-993C-0090343F185F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{925DB4C6-5708-4895-993C-0090343F185F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ECE028E-ADDE-4219-A633-86D12B33669C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ECE028E-ADDE-4219-A633-86D12B33669C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ECE028E-ADDE-4219-A633-86D12B33669C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ECE028E-ADDE-4219-A633-86D12B33669C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{262A950F-40F2-43B1-9529-412F0C2FF6FD} = {43C79B61-F42A-41AE-AD41-0205EF501881}
 		{925DB4C6-5708-4895-993C-0090343F185F} = {43C79B61-F42A-41AE-AD41-0205EF501881}
+		{5ECE028E-ADDE-4219-A633-86D12B33669C} = {43C79B61-F42A-41AE-AD41-0205EF501881}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6015D02-5D53-49B7-AD8D-EBADB1C1298A}
