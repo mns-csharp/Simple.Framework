@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\pc\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\pc\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Simple.Framework.1903401976.00" t="ExcludeRecursive" />
+    <e p="C:\Users\pc\RiderProjects\Simple.Framework" t="IncludeFlat">
+      <e p="Examples" t="Include">
+        <e p="PrimitiveLayeredDataDrivenApplication" t="IncludeRecursive">
+          <e p="app.config" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="MyPicture.png" t="Include" />
+          <e p="obj" t="ExcludeRecursive" />
+          <e p="PrimitiveLayeredDataDrivenApplication.csproj" t="IncludeRecursive" />
+          <e p="Program.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+        <e p="SimpleDataDrivenApplication" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="MainClass.cs" t="Include" />
+          <e p="MyPicture.png" t="Include" />
+          <e p="obj" t="ExcludeRecursive" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="SimpleDataDrivenApplication.csproj" t="IncludeRecursive" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Simple.Framework" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="connection-strings-example.txt" t="Include" />
+        <e p="ConvertDate.cs" t="Include" />
+        <e p="earth.ico" t="Include" />
+        <e p="ErrorMessage.cs" t="Include" />
+        <e p="null-info.txt" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="buttonBlack.bmp" t="Include" />
+          <e p="buttonHighLight.bmp" t="Include" />
+          <e p="buttonNormal.bmp" t="Include" />
+          <e p="UserLogin.png" t="Include" />
+        </e>
+        <e p="Simple.Framework" t="Include">
+          <e p="AbstractClasses" t="Include">
+            <e p="AQueryExecutor.cs" t="Include" />
+            <e p="ASafeDataReader.cs" t="Include" />
+            <e p="ATransactionManager.cs" t="Include" />
+          </e>
+          <e p="BaseClasses" t="Include">
+            <e p="BaseClass.cs" t="Include" />
+            <e p="IBaseClassInterface.cs" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="BusinessLogicLayer" t="Include">
+              <e p="IBusinessLogic.cs" t="Include" />
+            </e>
+            <e p="DataAccessLayer" t="Include">
+              <e p="IDataAccess.cs" t="Include" />
+            </e>
+            <e p="IQueryExecutor.cs" t="Include" />
+            <e p="ISafeDataReader.cs" t="Include" />
+            <e p="ITransactionManager.cs" t="Include" />
+            <e p="Poco" t="Include">
+              <e p="ITypePoco.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ParameterAttacher.cs" t="Include" />
+          <e p="PivotTable" t="Include">
+            <e p="PivotTable.cs" t="Include" />
+          </e>
+          <e p="QueryExecutor.cs" t="Include" />
+          <e p="SafeDataReader.cs" t="Include" />
+          <e p="SqlInfoEnumerator.cs" t="Include" />
+          <e p="TransactionManager.cs" t="Include" />
+          <e p="Utils" t="Include">
+            <e p="ApplicationContext.cs" t="Include" />
+            <e p="ConfigurationSettingsContainer.cs" t="Include" />
+            <e p="ConvertImage.cs" t="Include" />
+            <e p="CustomErrorMessages.cs" t="Include" />
+            <e p="DBNullValue.cs" t="Include" />
+            <e p="DbObjectInstantiator.cs" t="Include" />
+            <e p="EnumConverter.cs" t="Include" />
+            <e p="NullableType.cs" t="Include" />
+            <e p="ParameterParser.cs" t="Include" />
+            <e p="VarDecToVarName.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Simple.Framework.csproj" t="IncludeRecursive" />
+        <e p="Simple.Framework.Gui" t="Include">
+          <e p="BaseForm.cs" t="Include" />
+          <e p="BaseForm.Designer.cs" t="Include" />
+          <e p="BaseForm.resx" t="Include" />
+          <e p="ChildFormChecker.cs" t="Include" />
+          <e p="GenericNormalCollectionForm.cs" t="Include" />
+          <e p="GenericNormalCollectionForm.Designer.cs" t="Include" />
+          <e p="GenericNormalCollectionForm.resx" t="Include" />
+          <e p="GenericSimpleCollectionForm.cs" t="Include" />
+          <e p="GenericSimpleCollectionForm.Designer.cs" t="Include" />
+          <e p="GenericSimpleCollectionForm.resx" t="Include" />
+        </e>
+        <e p="Simple.Framework.Orm" t="Include">
+          <e p="AssemblyValidator.cs" t="Include" />
+          <e p="ConfigSection" t="Include">
+            <e p="AssembliesConfigurationSection.cs" t="Include" />
+            <e p="AssemblyTypeConfigurationElement.cs" t="Include" />
+          </e>
+          <e p="DataAccess.cs" t="Include" />
+          <e p="DataReaderMapper.cs" t="Include" />
+          <e p="KeyMaker.cs" t="Include" />
+          <e p="Mapping.cs" t="Include" />
+          <e p="MappingContainer.cs" t="Include" />
+          <e p="MappingDataExtractor.cs" t="Include" />
+          <e p="MappingValidator.cs" t="Include" />
+          <e p="OrmEngine.cs" t="Include" />
+          <e p="PrimitiveTypeChecker.cs" t="Include" />
+          <e p="PropertyValidator.cs" t="Include" />
+          <e p="QueryNames.cs" t="Include" />
+          <e p="SQLContainer.cs" t="Include" />
+          <e p="SqlGenerator.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Simple.Framework.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
