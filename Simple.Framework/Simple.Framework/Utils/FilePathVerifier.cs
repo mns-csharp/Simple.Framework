@@ -25,9 +25,10 @@ namespace Simple.Framework
                     isValid = string.IsNullOrEmpty(root.Trim(new char[] { '\\', '/' })) == false;
                 }
             }
-            catch (Exception ex)
+            catch //(Exception ex)
             {
                 isValid = false;
+                throw;
             }
 
             return isValid;

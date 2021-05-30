@@ -82,6 +82,7 @@
       <DependentUpon>BaseForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Simple.Framework.Gui\ChildFormChecker.cs" />
+    <Compile Include="Simple.Framework.Gui\ControlHelper.cs" />
     <Compile Include="Simple.Framework.Gui\GenericNormalCollectionForm.cs">
       <SubType>Form</SubType>
     </Compile>

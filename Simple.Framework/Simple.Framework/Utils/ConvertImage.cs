@@ -50,9 +50,10 @@ namespace Simple.Framework
                     returnImage = Image.FromStream(ms);
                 }
             }
-            catch(Exception ex)
+            catch//(Exception ex)
             {
                 string str = String.Empty;
+                throw;
             }
 
             return returnImage;
